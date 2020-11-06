@@ -1,7 +1,7 @@
 const request = require('request');
 const IPurl = 'https://api.ipify.org?format=json';
-let coordsUrl = 'http://ip-api.com/json/99.226.40.107';
-let flyOverUrl = "http://api.open-notify.org/iss-pass.json?lat=43.5698&lon=-80.2421";
+const coordsUrl = 'http://ip-api.com/json/99.226.40.107';
+const flyOverUrl = "http://api.open-notify.org/iss-pass.json?lat=43.5698&lon=-80.2421";
 
 /**
  * Makes a single API request to retrieve the user's IP address.
